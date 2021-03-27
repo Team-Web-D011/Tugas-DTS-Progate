@@ -1,0 +1,40 @@
+header {
+    display: inline;
+}
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-image: url("../../images/header-1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 300px;
+}
+
+nav {
+    background-color: #022b66;
+    height: auto;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    font-weight: bold;
+}

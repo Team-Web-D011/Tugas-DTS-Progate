@@ -1,0 +1,25 @@
+@import "./header/header.css";
+@import "./header/sidenav.css";
+@import "./responsive/responsive.css";
+@import "./main/main.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/sample1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.content{
+    width: 95%;
+    margin: 20px auto;
+    padding: 30px;
+    border: 2px solid rgb(0, 0, 0, 0.7);
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0, 0.7);
+    box-shadow: 0px 10px black;
+}
