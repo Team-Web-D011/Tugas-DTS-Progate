@@ -1,9 +1,15 @@
 @import "./header/header.css";
 @import "./header/sidenav.css";
+@import "./main/back-to-top.css";
+@import "./main/main-card.css";
 @import "./responsive/responsive.css";
 
 * {
     box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body{
