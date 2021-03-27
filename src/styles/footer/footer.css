@@ -1,0 +1,46 @@
+/* Bagian FOOTER */
+.footer
+{
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-gap:2rem;
+    justify-content: center;
+    align-items: center;
+}
+.footer ul li{
+    color: white;
+    text-decoration: none;
+    margin: 0;
+    padding-top: 10px;
+    list-style: none;
+}
+.aboutus p{
+    width: 90%;
+    color: white;
+    padding-top: 10px;
+}
+.footer h5{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: lightblue;
+}
+.footer a:hover{
+    font-family: 'Poppins', sans-serif;
+    color: #fba234;
+}
+footer{
+    background-color: black;
+    padding: 17px;
+    text-align: center;
+}
+footer p{
+    color: white;
+}

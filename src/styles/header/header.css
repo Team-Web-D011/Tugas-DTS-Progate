@@ -17,7 +17,7 @@ nav {
     background-color: #022b66;
     height: auto;
     padding: 5px;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     text-align: center;
 }

@@ -2,17 +2,18 @@
 @import "./header/sidenav.css";
 @import "./main/back-to-top.css";
 @import "./main/main-card.css";
+@import "./footer/footer.css";
 @import "./responsive/responsive.css";
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-body{
-    margin: 0;
-    padding: 0;
+body {
+  margin: 0;
+  padding: 0;
 }

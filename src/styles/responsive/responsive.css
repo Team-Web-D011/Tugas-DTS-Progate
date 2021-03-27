@@ -1,37 +1,47 @@
-@media screen and (max-width: 650px) {
-    nav ul .openbtn {
-        display: block;
-    }
+@media screen and (max-width: 800px) {
+  .card {
+    width: calc(50% - 2rem);
+  }
+}
 
-    nav ul li a {
-        display: none;
-    }
+@media screen and (max-width: 500px) {
+  nav ul .openbtn {
+    display: block;
+  }
 
-    nav {
-        height: 90px;
-    }
+  nav ul li a {
+    display: none;
+  }
+
+  nav {
+    height: 90px;
+  }
+
+  .card {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 750px) {
-    nav ul .openbtn {
-        display: block;
-    }
+  nav ul .openbtn {
+    display: block;
+  }
 
-    nav ul li a {
-        display: none;
-    }
+  nav ul li a {
+    display: none;
+  }
 
-    nav {
-        height: 90px;
-    }
+  nav {
+    height: 90px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    nav ul .openbtn {
-        display: none;
-    }
+  nav ul .openbtn {
+    display: none;
+  }
 
-    nav ul li a {
-        display: inline-block;
-    }
+  nav ul li a {
+    display: inline-block;
+  }
 }
