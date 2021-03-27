@@ -2,7 +2,7 @@
 .footer
 {
     font-family: 'Poppins', sans-serif;
-    background-color: black;
+    background-color: #022b66;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
@@ -37,7 +37,7 @@
     color: #fba234;
 }
 footer{
-    background-color: black;
+    background-color: #022b66;
     padding: 17px;
     text-align: center;
 }

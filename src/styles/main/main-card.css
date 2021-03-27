@@ -32,6 +32,8 @@
   margin-top: 0;
   margin-left: 1rem;
   margin-bottom: 3rem;
+  text-decoration: underline;
+  font-size: 30px;
 }
 .card {
   color: inherit;
@@ -44,16 +46,7 @@
   margin: 1rem;
   position: relative;
 }
-/* @media screen and (max-width: 800px) {
-  .card {
-    width: calc(50% - 2rem);
-  }
-}
-@media screen and (max-width: 500px) {
-  .card {
-    width: 100%;
-  }
-} */
+
 .front,
 .back {
   display: flex;
