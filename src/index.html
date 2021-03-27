@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,33 +11,107 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Team D011</title>
 </head>
+
 <body>
-    <header>
+    <header id="header">
         <div class="jumbotron">
             <h1>Team D011</h1>
         </div>
-    <nav>
-        <ul>
-            <button id="openbtn" class="openbtn" style="font-size:30px;cursor:pointer"><i class="material-icons">menu</i></button>
-            <li><a class="name" href="#Sejarah">Anita Rahmawati</a></li>
-            <li><a href="#Geografis">Andre Maesha</a></li>
-            <li><a href="#Wisata">Fikri Zulfikar</a></li>
-            <li><a href="#">Muh Alif</a></li>
-            <li><a href="#">Ruddys3ft</a></li>
-        </ul>
-    </nav>
-    <div id="mySidenav" class="sidenav">
-        <a href="#!" id="closebtn" class="closebtn" >&times;</a>
-        <a href="#!">Anita Rahmawati</a>
-        <a href="#!">Andre Maesha</a>
-        <a href="#!">Fikri Zulfikar</a>
-        <a href="#!">Muh Alif</a>
-        <a href="#!">Ruddys3ft</a>
-      </div>
+        <nav>
+            <ul>
+                <button id="openbtn" class="openbtn" style="font-size:30px;cursor:pointer"><i
+                        class="material-icons">menu</i></button>
+                <li><a class="name" href="#andre">Andre Maesha</a></li>
+                <li><a href="#anite">Anita Rahmawati</a></li>
+                <li><a href="#fikri">Fikri Zulfikar</a></li>
+                <li><a href="#alif">Muh Alif</a></li>
+                <li><a href="#ruddy">Ruddys3ft</a></li>
+            </ul>
+        </nav>
+        <div id="mySidenav" class="sidenav">
+            <a href="#!" id="closebtn" class="closebtn">&times;</a>
+            <a href="#andre">Andre Maesha</a>
+            <a href="#anita">Anita Rahmawati</a>
+            <a href="#fikri">Fikri Zulfikar</a>
+            <a href="#alif">Muh Alif</a>
+            <a href="#ruddy">Ruddys3ft</a>
+        </div>
     </header>
 
     <main>
-        <!-- main block hapus aja -->
+
+        <div class="content">
+            <h1 class="heading">Card Flip</h1>
+            <p class="description">Hover over a card to flip it.</p>
+            <a class="card" href="#!" id="andre">
+                <div class="front" style="background-image: url(//source.unsplash.com/300x406)">
+                    <p>Andre Maesha</p>
+                </div>
+                <div class="back">
+                    <div>
+                        <h1>About me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae quis saepe molestias
+                            dolor ab suscipit tempore laboriosam sapiente, atque voluptates vero! Molestiae nesciunt
+                            minus minima at libero quae dolor nostrum?</p>
+                        <p><strong>mmmm@gmail.com</strong></p>
+                    </div>
+                </div>
+            </a>
+            <a class="card" href="#!" id="anita">
+                <div class="front" style="background-image: url(//source.unsplash.com/300x402)">
+                    <p>Anita Rahmawati</p>
+                </div>
+                <div class="back">
+                    <div>
+                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <button class="button">Click Here</button>
+                    </div>
+                </div>
+            </a>
+            <a class="card" href="#!" id="fikri">
+                <div class="front" style="background-image: url(//source.unsplash.com/300x403)">
+                    <p>Fikri Zulfikar</p>
+                </div>
+                <div class="back">
+                    <div>
+                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <button class="button">Click Here</button>
+                    </div>
+                </div>
+            </a>
+            <a class="card" href="#!" id="alif">
+                <div class="front" style="background-image: url(//source.unsplash.com/300x404)">
+                    <p>Muh Alif</p>
+                </div>
+                <div class="back">
+                    <div>
+                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <button class="button">Click Here</button>
+                    </div>
+                </div>
+            </a>
+            <a class="card" href="#!" id="ruddy">
+                <div class="front" style="background-image: url(//source.unsplash.com/300x405)">
+                    <p>Ruddys3ft</p>
+                </div>
+                <div class="back">
+                    <div>
+                        <p>Consectetur adipisicing elit. Possimus, praesentium?</p>
+                        <p>Provident consectetur natus voluptatem quis tenetur sed beatae eius sint.</p>
+                        <button class="button">Click Here</button>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="arrow">
+            <a href="#header" title="back to top">
+                <i class="material-icons">keyboard_arrow_up</i>
+            </a>
+        </div>
     </main>
 
     <footer>
@@ -45,4 +120,5 @@
 
     <script src="./scripts/sidenav.js"></script>
 </body>
+
 </html>
